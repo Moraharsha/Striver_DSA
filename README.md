@@ -68,4 +68,17 @@ Patterns
 
 so Here we need to print 4 stars each line and that print line should be inside the inner for loop . 
 in this we need to observe each pattern by following above four steps
-
+-------------------------------
+Pattern 1
+--
+Class Main{
+ int n=5;
+       for(int i=0;i<n;i++)
+       {
+           for(int j=0;j<n;j++)
+           {
+               System.out.print("* ");
+               
+           }
+           System.out.println();
+}
