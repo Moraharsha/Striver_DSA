@@ -52,3 +52,20 @@ public class Main {
 }
 
 
+-------------------------------------------------------
+Patterns
+--------
+1) for the outer Loop , Count the number of lines .
+2) for the inner loop , focus on the columns and connect them somehow to the rows.
+3) Print any charactor like * inside the inner loop.
+4) Observe the symmetry(optional).
+-----------------
+1.	* * * *    -> first row printing 4 starts
+2.	* * * *    -> 2nd row printing 4 starts
+3.	* * * *    -> 3rd row printing 4 starts
+4.	* * * *
+5.	* * * *
+
+so Here we need to print 4 stars each line and that print line should be inside the inner for loop . 
+in this we need to observe each pattern by following above four steps
+
